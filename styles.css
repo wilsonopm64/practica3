@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color:#E1E9FF ;
+}
+
+.principal-conteiner {
+    width: 300px;
+    height: 520px;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.header-conteiner img {
+    width: 300px;
+    height:150px ;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 30px;
+}
+
+.main-conteiner h1 {
+    padding-left: 90px;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.main-paragraph {
+    padding-left:20px;
+    font-size: 18px;
+    color:#8d8b8b ;
+}
+
+.section__container {
+    width:260px;
+    height: 75px;
+    background-color:rgb(243, 242, 242);
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.section__container img {
+    margin-top: 13px;
+    margin-left: 13px;
+    padding-bottom: 5px;
+}
+
+.price-content {
+    display: inline-block;
+    width: 90px;
+    height: 60px;
+    margin-left: 10px;
+}
+
+.price-content h2 {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.price-content p {
+    font-size: 18px;
+    color: #79797a;
+}
+
+.anchor-conteiner a {
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.anchor-conteiner {
+    width: 60px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 20px;
+    position: absolute;
+    top: 40%;
+} 
+
+.payment-button {
+    background-color: blue;
+    width: 250px;
+    height: 40px;
+    margin-left: 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+    display: block;
+    font-weight: bold;
+    font-size:18px;
+    border: none;
+}
+
+.cancel-button {
+    font-size: 25px;
+    color: #79797a;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 70px;
+    border: none;
+    background-color: white;
+}
+
+.cancel-button:hover {
+    color: blue;
+}
+
+.cancel-button:active {
+    color: green;
+}
+
+.payment-button:hover {
+    color: red;
+}
+
+.payment-button:active {
+    color: green;
+}
+
+.anchor-conteiner a:hover {
+    color: red;
+}
+
+.anchor-conteiner a:active {
+    color: green;
+}
